@@ -1,0 +1,45 @@
+.horizontal-menu {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+}
+
+.navmenu_1 {
+    position: relative;
+    display: flex;
+    list-style: none;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px 0 40px 0;
+}
+
+.navmenu_1 a {
+    position: relative;
+    padding: 10px 34px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: #000;
+    display: inline-block;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.navmenu_1 .slide1 {
+    position: absolute;
+    display: inline-block;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1.05);
+    bottom: 10px;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.navmenu_1 .slide1 {
+    background-color: #BFE2FF;
+    border: 1px solid transparent;
+    z-index: 2;
+}

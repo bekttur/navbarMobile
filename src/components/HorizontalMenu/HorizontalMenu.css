@@ -1,0 +1,11 @@
+.menu {
+    display: flex;
+    gap: 3px;
+  }
+  .menu-item {
+    transition: 0.05s all ease;
+  }
+  .menu-item.active {
+    background-color: #5288c1;
+  }
+  
